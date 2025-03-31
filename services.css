@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    min-height:100vh;
+    background-color:#CDCFC0 ;
+  }
+
+  #p-s{
+  
+    width: 20vw ;
+    height: 9vh;
+    border: 1px solid #C6B6A6FF;
+    border-radius: 3rem;
+    margin: 3.125rem auto 1rem 40% ;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:quattrocento;
+    font-size:clamp(2rem, 8vw,2rem);
+    font-weight:100;
+  
+    
+  }
+main{
+    display: flex;
+    }
+    
+    .container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 4rem;
+      max-width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto 0.5rem auto auto;
+    }
+    
+    video{
+      width:20rem;
+      height:20rem;
+      margin-bottom: 0.275rem;
+        
+    }
+    
+    .items{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5rem;
+      height:28rem;
+      
+    }
+    
+    
+     a.facials, a.massages, a.footspas{
+    
+      background-color: #ECE7E1FF;
+      color:  #7D6750FF;
+      width: 9.375rem;
+      height: 3.125rem;
+      font-size:1.25rem;
+      border-radius: .625rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0rem  .125rem .188rem #878c94, 0px 0px 1px #797e86;
+      
+    }
+    
+    .facials, .massages, .footspas{
+      position:relative;
+      align-self: center;
+      bottom:6rem;
+    }
+    a.facials:hover, a.massages:hover, a.footspas:hover{
+      transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+  
+    @media (min-width: 360px) and (max-width: 800px){
+      .hide{
+        display:none;
+       }
+       .menu-button{
+         display: block;
+       }
+  
+       .contacts{
+          margin-top: 5rem;
+          margin-bottom: 4rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          font-family: aboreto;
+          font-size: 1.05rem;
+          align-items: center;
+          text-align: center;
+      }
+      .contact-type{
+        font-size: 2rem;
+      }
+      .specific-contact{
+          margin: 0;
+      }
+      .vl{
+          border: 0.12rem solid black;
+          height: 0rem;
+          width: 18rem;
+          margin-top: 10%;
+          margin-bottom: 12%;
+      }
+      .specific-contact{
+          margin-top: 0%;
+          margin-bottom: 3%;
+          justify-content: center;
+      }
+      #fb, #ig, #twt, #linked{
+          margin-left: 0.10rem
+      }
+      #fb, #ig, #twt, #linked{
+      color: black;
+      margin-left: 0rem;
+      font-size: 1.25rem;
+      transition: all 0.1s ease;
+      
+  }
+  
+  .about-container {
+      width: 97%; 
+      flex-direction: column; 
+      gap: 20px; 
+      padding: 0 10px; 
+      margin: 0 auto; 
+      padding-top: 50px;
+    }
+  
+    .left-column, .right-column {
+      width: 100%; 
+      margin-left: 0; 
+      padding: 0 10px; 
+    }
+  
+    .section-title, .story-title {
+      font-size: 24px; 
+      padding: 10px; 
+      text-align: center; 
+      border-radius: 59px; 
+      font-family: aboreto;
+      font-weight: bold;
+    }
+  
+    .section-content, .story-content {
+      font-size: 16px; 
+      line-height: 1.5; 
+      text-align: justify; 
+      padding: 15px; 
+      font-family: quattrocento;
+      text-indent: 30px;
+    }
+  
+    #p-s{
+      width: 50vw ;
+      height: 10vh;
+      margin: 3.125rem auto 1rem 25% ;
+    }
+       .container{
+        
+       
+        margin: 20% auto auto auto;
+    
+        
+      }
+      video{
+        width:18rem;
+        height:18rem;
+        
+      
+          
+      }
+       .items{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 7rem;
+        height:14rem;
+        
+      }
+      a.facials, a.massages, a.footspas{
+    
+        background-color: #ECE7E1FF;
+        color:  #7D6750FF;
+        width: 9.375rem;
+        height: 3.125rem;
+        font-size:1.5rem;
+        border-radius: .7rem;
+      }
+  }
+  
